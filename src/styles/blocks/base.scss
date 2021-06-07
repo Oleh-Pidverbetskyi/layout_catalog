@@ -2,15 +2,10 @@
   min-width: 1024px;
 
   &__catalog {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 1024px;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 46px;
+    justify-content: center;
     padding: 50px 40px;
-    margin: 0 auto;
-  }
-
-  &__indent-down {
-    margin-bottom: 50px;
   }
 }
